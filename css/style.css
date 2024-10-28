@@ -151,8 +151,15 @@ nav {
   margin-right: auto;
   padding-top: 50px;
   padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
+.m30{
+  margin-bottom: 30px;
+}
 /*LA GRID */
 
 /*
@@ -197,40 +204,81 @@ Jaune : #ffc107
 
 /* GRID CSS */
 
-.flexcolumn{
-  display: flex;
-  flex-direction: column;
+
+
+
+.bloc1{
+  width:500px;
+  height: 500px;
+  background-color: red;
 }
 
-.wrapper {
+.bloc2{
   width: 100%;
-  height: auto;
+  height: 66%;
+  background-color: blue;
 }
 
-.bloc-a {
+.bloc3{
+  width: 100%;
+height: 34%;
+background-color: green;
+display: flex;
+}
+
+.bloc4{
   width: 34%;
-  height: auto;
+  height: 100%;
+  background-image: url("../img/zelda-grid-a.jpg");
+  float: left;
+  background-size: auto;
+  background-repeat: no-repeat;
 }
 
-.bloc-b {
+.bloc5{
+  width: 100%;
+  height:100%;
+  background-color: blueviolet;
+}
+
+.bloc6{
   width: 66%;
   height: 50%;
+background-image: url("../img/zelda-grid-b.png");
+  float: left;
+  object-fit: contain;
 }
 
-.bloc-c {
+.bloc7{
+  width: 100%;
+  height: 50%;
+  background-color: black;
+}
+
+.bloc8{
   width: 33%;
+  height: 100%;
+  background-color: aquamarine;
+  float: left;
 }
 
-.bloc-d {
+.bloc9{
   width: 33%;
+  height: 100%;
+  background-color: magenta;
+  float: left;
 }
 
-.bloc-e {
-  width: 33%;
+.bloc10{
+  width: 34%;
+  height: 100%;
+  background-color: bisque;
 }
 
-.bloc-f {
+.bloc11{
   width: 66%;
+  height: 100%;
+  background-color: darkblue;
 }
 
 
@@ -300,3 +348,4 @@ Jaune : #ffc107
   transform: translateY(-50%) scaleX(-1);
   right: -24px;
 }
+
